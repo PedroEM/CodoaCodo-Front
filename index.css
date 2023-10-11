@@ -1,0 +1,82 @@
+.texto-carousel {
+    left: 55%;
+}
+
+.titulo-oradores {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.titulo-oradores p {
+    margin-bottom: 0;
+    margin-top: 1%;
+}
+
+.card-body span{
+    padding: 0.1rem;
+}
+
+.c-img-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.c-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.c-body {
+    background-color: #373737;
+    color: white;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.titulo-oradores span {
+    border-bottom:1px dotted black;
+    text-decoration:none;
+}
+
+.form-orador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-orador textarea {
+    margin-top: 1rem;
+    width: 60%;
+}
+
+.form-NA {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    width: 60%;
+}
+
+.form-orador p {
+    width: 60%;
+    color: #6c757d;
+}
+
+.foot {
+    background-image: linear-gradient(to right, #1c3643, #1e5372)
+}
+
+.foot-link {
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.foot-link a {
+    width: 8rem;
+}
